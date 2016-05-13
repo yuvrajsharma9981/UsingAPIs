@@ -1,0 +1,11 @@
+{
+    "name": "vendor/php-project11",
+    "description": "Description of project PhpProject11.",
+    "authors": [
+        {
+            "name": "Yuvraj Sharma",
+            "email": "your@email.here"
+        }
+    ],
+    "require": {"abraham/twitteroauth":"0.6.2"}
+}
