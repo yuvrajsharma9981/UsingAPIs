@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Tweets & Yelp</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="../controller/controller.php" method="get">
+            Term: <input type="text" name="term" /> <br/>
+            <!-- to take the query from user and send it to controller.php-->
+            Location: <input type="text" name="location" /> <br/>
+            <!-- to take the Since Id from user and send it to controller.php-->
+            <input type="submit" value="Submit" />
+        </form>
+        
+        OR <br>
+        <a href = "../controller/controller.php?saved=save">SAVED ONES</a>
+        
+    </body>
+</html>
